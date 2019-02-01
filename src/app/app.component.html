@@ -1,9 +1,14 @@
 <div>
   <nav >
-    <a routerLink="/home" class="navigation">Home</a>
-    <a routerLink="/about-us" class="navigation">About Us</a>
-    <a routerLink="/contact-us" class="navigation">Contact Us</a>
-    <a routerLink="/feedback" class="navigation">Feedback</a>
+    <a routerLink="/home" class="navigation" routerLinkActive="router-active-link">Home</a>
+    <a routerLink="/about-us" class="navigation" routerLinkActive="router-active-link" routerLinkActiveOptions="{exact:true}">About Us</a>
+    <a routerLink="/contact-us" class="navigation" routerLinkActive="router-active-link" routerLinkActiveOptions="{exact:true}">Contact Us</a>
+    <a routerLink="/feedback" class="navigation" routerLinkActive="router-active-link" routerLinkActiveOptions="{exact:true}">Feedback</a>
+    <a routerLink="/lazy" class="navigation" routerLinkActive="router-active-link" routerLinkActiveOptions="{exact:true}">Lazy</a>
+    <a routerLink="/dept" class="navigation" routerLinkActive="router-active-link" routerLinkActiveOptions="{exact:true}">dept</a>
+    <a routerLink="/practice" class="navigation" routerLinkActive="router-active-link" routerLinkActiveOptions="{exact:true}">practice</a>
   </nav>
   <router-outlet></router-outlet>
+  outer
+
 </div>
